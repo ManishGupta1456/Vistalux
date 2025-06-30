@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Your Stay – Vista Inn</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay">
+      <h1>Book Your Stay</h1>
+    </div>
+  </header>
+
+  <main class="booking-form" style="max-width: 600px; margin: 2rem auto;">
+    <form action="#" method="POST">
+      <label>Full Name: <input type="text" name="name" required></label>
+      <label>Email: <input type="email" name="email" required></label>
+      <label>Phone: <input type="tel" name="phone" required></label>
+      <label>Check-in Date: <input type="date" name="checkin" required></label>
+      <label>Check-out Date: <input type="date" name="checkout" required></label>
+      <label>Guests: <input type="number" name="guests" min="1" required></label>
+      <label>Room Type:
+        <select name="roomtype" required>
+          <option value="double">Deluxe Double</option>
+          <option value="single">Deluxe Single</option>
+        </select>
+      </label>
+      <button type="submit" class="book-btn" style="margin-top: 1rem;">Confirm Booking</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Vista Inn. All rights reserved.</p>
+  </footer>
+</body>
+</html>
