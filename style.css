@@ -1,0 +1,98 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x900/?luxury,hotel') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 3rem;
+  color: white;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.book-btn {
+  background-color: #d4af37;
+  padding: 0.75rem 2rem;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #b4972d;
+}
+
+.experience, .rooms {
+  padding: 3rem 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.experience h2, .rooms h2 {
+  color: #2e3b4e;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.experience p, .experience ul {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.experience ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.experience ul li {
+  margin-bottom: 0.5rem;
+}
+
+.room-card {
+  background: #f8f8f8;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 5px solid #d4af37;
+  border-radius: 6px;
+}
+
+footer {
+  background: #2e3b4e;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
